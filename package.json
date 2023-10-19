@@ -1,0 +1,21 @@
+{
+  "name": "e2e-sample",
+  "version": "1.0.0",
+  "description": "A project to show how e2e test cases can work.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --detectOpenHandles --verbose"
+  },
+  "author": "Fahad Khan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "sqlite3": "^5.1.6",
+    "supertest": "^6.3.3"
+  }
+}
